@@ -1,0 +1,138 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #243746;
+    font-size: 1.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+
+.header{
+    position: absolute;
+    top: 1.7rem;
+    left: 44rem;
+    color: #f1cf55;
+    font-size: 14px;
+}
+
+.aside-circle-top{
+    position: absolute;
+    top: 17rem;
+    left: 48.6rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 140px;
+    font-weight: bold;
+    color :#243746;
+    background-color: #ffffff;
+    line-height: 225px;
+}
+
+
+.aside-circle-bottom{
+    position: absolute;
+    top: 55rem;
+    left: 48.6rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 140px;
+    font-weight: bold;
+    color :#243746;
+    background-color: #ffffff;
+    line-height: 225px;
+    
+}
+
+
+.section_1{
+    position: absolute;
+    left: 80rem;
+    top: 11rem;
+    width: 780px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.low{
+    margin-top: 40px;
+    width: 800px;
+}
+
+.section_2{
+    position: absolute;
+    left: 80rem;
+    top: 55rem;
+    width: 700px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+@media (max-width: 1366px){
+
+.header{
+    position: absolute;
+    top: 0.7rem;
+    left: 30rem;
+    font-size: 12px;
+}
+
+.aside-circle-top{
+    position: absolute;
+    top: 10rem;
+    left: 34.6rem;
+    width: 200px;
+    height: 200px;
+    font-size: 120px;
+    line-height: 180px;
+}
+
+.aside-circle-bottom{
+    position: absolute;
+    top: 40rem;
+    left: 34.6rem;
+    width: 200px;
+    height: 200px;
+    font-size: 120px;
+    line-height: 180px;
+}
+
+.section_1{
+    position: absolute;
+    left: 60rem;
+    top: 7rem;
+    width: 560px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section_2{
+    position: absolute;
+    left: 60rem;
+    top: 40rem;
+    width: 500px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.low{
+    width: 580px;
+}
+
+
+}
+
+
